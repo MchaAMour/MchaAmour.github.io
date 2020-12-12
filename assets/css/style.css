@@ -397,11 +397,11 @@ li a{
   color: #015061;
 }
 .overview-info a, .sgo-news a{
-  color: #12101099;
+  color: #61d0a3;
   text-decoration: none;
 }
 .overview-info a:hover, .sgo-news a:hover{
-  color: #61d0a3;
+  color: #12101099;
 }
 .overview-info  p, .sgo-news p{
   font-size: 17px;
@@ -493,7 +493,24 @@ hr{
   border-bottom: 3px solid white;
   width: 286px;
 }
-
+@media (max-width: 1280px) {
+  .sub-box-1 .fa-newspaper-o,
+  .sub-box-2 >div.icon > .fa-map-marker,
+  .sub-box-3 >div.icon > .fa-map-o,
+  .sub-box-4 >div.icon > .fa-history{
+    font-size: 60px;
+  }
+  hr{
+    width: 222px;
+  }
+  .sub-box-1  span, .sub-box-2  span, .sub-box-3  span, .sub-box-4  span{
+    font-size: 25px;
+  }
+  .sub-box-1> div.content, .sub-box-2 > div.content, .sub-box-3 > div.content, .sub-box-4 > div.content {
+    padding-top: 6px;
+    padding-left: 51px;
+  }
+}
 /*@media (max-width: 1440px) {
   .overview-info, .sgo-news {
     margin-left: -236px;
@@ -599,16 +616,26 @@ hr{
 .sgo-history h2{
   color: #015061;
   font-size: 43px;
+  font-weight: bold;
+}
+.sgo-history a{
+  color: #61d0a3;
+  text-decoration: none;
+}
+.sgo-history a:hover{
+  color: #12101099;
 }
 .sgo-history p, .sgo-history li{
   font-size: 17px;
   line-height: 1.9;
 }
+/*for my screen*/
 @media (max-width: 1280px) {
   .sgo-history{
     margin-left: 0px;
   }
 }
+/*for ipad*/
 @media (max-width: 768px) {
   .sgo-history{
     margin-left: 0px;
