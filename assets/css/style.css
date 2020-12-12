@@ -63,7 +63,7 @@ li a{
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 94px;
+  height: 102px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
@@ -74,7 +74,7 @@ li a{
   text-align: center;
 }
 #header .logo img {
-  max-height: 68px;
+  max-height: 89px;
   text-align: center;
   /*width: 147px;*/
   width: 180px;
@@ -335,8 +335,8 @@ li a{
 }
 #main-banner h2 {
   color: white;
-  margin-bottom: 30px;
-  font-size: 24px;
+  margin-bottom: -62px;
+  font-size: 20px;
   line-height: 1.9;
 }
 @media (max-width: 1440px) {
@@ -391,9 +391,10 @@ li a{
 .overview-info > div > div > h2, .sgo-news > div > div > h2{
   color: #015061;
   font-size: 43px;
+  font-weight: bold;
 }
 .overview-info h3, .sgo-news h3{
-  color: darkgray;
+  color: #015061;
 }
 .overview-info a, .sgo-news a{
   color: #12101099;
@@ -404,7 +405,7 @@ li a{
 }
 .overview-info  p, .sgo-news p{
   font-size: 17px;
-  line-height: 1.9;
+  line-height: 1.5;
 }
 .mob-img-overview{
   padding-top: 93px;
@@ -412,6 +413,9 @@ li a{
 @media (max-width: 1280px) {
   .overview-info,.sgo-news{
     margin-left: 0px;
+  }
+  #overview-banner img{
+    height: 500px;
   }
 }
 @media (max-width: 768px) {
