@@ -601,6 +601,13 @@ hr{
 .question-info h2{
   color: #015061;
   font-size: 43px;
+  font-weight: bold;
+}
+.question-info h5 button{
+  color: #61d0a3;
+}
+.question-info h5 button:hover{
+  color: #12101099;
 }
 .all-ques > div#accordion > div.card > div.card-header > h5 > button{
   width: 100%;
