@@ -595,6 +595,9 @@ hr{
 /*--------------------------------------------------------------
 # common question
 --------------------------------------------------------------*/
+.question-info{
+  margin-left: -335px;
+}
 #common-ques1{
   width: 70%;
 }
@@ -612,6 +615,16 @@ hr{
 .all-ques > div#accordion > div.card > div.card-header > h5 > button{
   width: 100%;
   text-align: left;
+}
+@media (max-width: 1280px) {
+  .question-info{
+    margin-left: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .question-info{
+    margin-left: 0px;
+  }
 }
 
 /*--------------------------------------------------------------
