@@ -58,7 +58,31 @@ h4{
 li a{
   cursor: pointer;
 }
+#loader { 
+  text-align: center;
+  visibility: hidden;
+  border: 7px solid #f3f3f3; 
+  border-radius: 50%; 
+  border-top: 7px solid #00e980; 
+  width: 70px; 
+  height: 70px; 
+  animation: spin 1s linear infinite; 
+} 
 
+@keyframes spin { 
+  100% { 
+    transform: rotate(360deg); 
+  } 
+} 
+
+.center { 
+  position: absolute; 
+  top: 0; 
+  bottom: 0; 
+  left: 0; 
+  right: 0; 
+  margin: auto; 
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -169,6 +193,9 @@ li a{
   color: #80a8af;
   background: none;
   text-decoration: none;
+}
+.navbar-nav > li > div > div > div > a:focus{
+  background: none;
 }
 .navbar-nav .dropdown-menudesktop > div.d-md-flex {
   padding-left: 15.188em;
@@ -647,7 +674,7 @@ hr{
 }
 .sgo-history p, .sgo-history li{
   font-size: 17px;
-  line-height: 1.9;
+  line-height: 1.5;
 }
 /*for my screen*/
 @media (max-width: 1280px) {
@@ -658,6 +685,32 @@ hr{
 /*for ipad*/
 @media (max-width: 768px) {
   .sgo-history{
+    margin-left: 0px;
+  }
+}
+/*--------------------------------------------------------------
+# Publications
+--------------------------------------------------------------*/
+.publications{
+  margin-left: -335px;
+}
+.publications h2{
+  color: #015061;
+  font-size: 43px;
+  font-weight: bold;
+}
+.publications p, .publications li{
+  font-size: 17px;
+  line-height: 1.5;
+}
+@media (max-width: 1280px) {
+  .publications{
+    margin-left: 0px;
+  }
+}
+/*for ipad*/
+@media (max-width: 768px) {
+  .publications{
     margin-left: 0px;
   }
 }
