@@ -1,8 +1,8 @@
 $(function(){
-  $(".main-nav-bar").load("../assets/pages/nav.html");
+  $(".main-nav-bar").load("nav.html");
 });
 $(function(){
-  $("#sgo-footer").load("../assets/pages/footer.html");
+  $("#sgo-footer").load("footer.html");
 });
 // for closing menu on desktop when click any where
 $('section').on('click', function(){
