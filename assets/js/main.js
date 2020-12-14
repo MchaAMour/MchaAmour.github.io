@@ -10,5 +10,5 @@ $('section').on('click', function(){
   menuBtn.classList.remove("close"); 
   menu.removeClass("show");
   document.getElementsByClassName('menu-text')[0].innerHTML = 'MENU';
-  showMenu = false; 
+  showMenu = true; 
 });
