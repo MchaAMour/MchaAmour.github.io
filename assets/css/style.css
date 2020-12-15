@@ -487,9 +487,13 @@ li a{
 .sub-box-1 .btn-more, .sub-box-2 .btn-more, .sub-box-3 .btn-more, .sub-box-4 .btn-more{
   padding-top: 20px;
 }
-.btn-more:hover a u{
+.sub-box-1 .btn-more:hover a u, .sub-box-3 .btn-more:hover a u{
   padding-left: 25px;
-  color: white;
+  color: rgba(1, 234, 129);
+}
+.sub-box-2 .btn-more:hover a u, .sub-box-4 .btn-more:hover a u{
+  padding-left: 25px;
+  color: rgba(1, 45, 58);
 }
 .btn-more:hover a u:after {
   opacity: 1;
