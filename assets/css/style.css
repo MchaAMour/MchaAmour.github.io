@@ -183,11 +183,12 @@ li a{
 }
 .navbar-nav .dropdown-menudesktop{
   position: absolute;
-  height: 298px;
+  height: 240px;
 }
 .navbar-nav > li > div > div > div > div.dropdown-header{
   color: #015061;
   font-weight: bolder;
+  font-size: 17px;
 }
 .navbar-nav > li > div > div > div > a:hover{
   color: #80a8af;
