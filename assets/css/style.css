@@ -119,7 +119,7 @@ li a{
   border: none;
   background: none;
   position: fixed;
-  top: 12px;
+  top: 16px;
   padding: 1.7rem 0rem;
 }
 /* Styling the hamburger lines */ 
@@ -179,7 +179,7 @@ li a{
   background-color: lightgray;
   text-align: left;
   /*background-color: #fff;*/
-  margin-top: 2.5625em;
+  margin-top: 3.7625em;
 }
 .navbar-nav .dropdown-menudesktop{
   position: absolute;
